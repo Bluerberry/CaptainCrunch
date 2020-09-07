@@ -1,2 +1,2 @@
-# CaptainSonar
-Porting Captain Sonar to binary
+# CaptainCrunch
+Has nothing to do with a certain boardgame
