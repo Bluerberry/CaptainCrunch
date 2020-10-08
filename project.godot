@@ -15,8 +15,15 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Captain Sonar"
-run/main_scene="res://Scenes/Menu screen/Menu.tscn"
+config/name="Captain Sonar v2.0"
+run/main_scene="res://Scenes/Menu/Menu.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+globals="*res://Autoload/globals.gd"
+tools="*res://Autoload/tools.gd"
+networking="*res://Autoload/networking.gd"
 
 [rendering]
 
