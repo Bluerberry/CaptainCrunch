@@ -17,13 +17,12 @@ _global_script_class_icons={
 
 config/name="Captain Sonar v2.0"
 run/main_scene="res://Scenes/Menu/Menu.tscn"
-config/icon="res://icon.png"
 
 [autoload]
 
 globals="*res://Autoload/globals.gd"
-tools="*res://Autoload/tools.gd"
 networking="*res://Autoload/networking.gd"
+tools="*res://Autoload/tools.gd"
 
 [rendering]
 
