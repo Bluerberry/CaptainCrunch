@@ -1,5 +1,12 @@
 extends Node2D
 
+# -------------------> Variables
+
+onready var ButtonCaptain = get_node("ButtonCaptain")
+onready var ButtonFirstMate = get_node("ButtonFirstMate")
+onready var ButtonEngineer = get_node("ButtonEngineer")
+onready var ButtonRadio = get_node("ButtonRadio")
+
 # -------------------> Functions
 
 # Sets the team select scene up
@@ -16,10 +23,10 @@ func _update_level() -> void:
 		roles += teammate.roles
 
 	# Hide buttons accordingly
-	$ButtonCaptain.disabled = true if roles.has("captain") else false
-	$ButtonFirstMate.disabled = true if roles.has("firstmate") else false
-	$ButtonEngineer.disabled = true if roles.has("engineer") else false
-	$ButtonRadio.disabled = true if roles.has("radio") else false
+	ButtonCaptain.disabled = true if roles.has("captain") else false
+	ButtonFirstMate.disabled = true if roles.has("firstmate") else false
+	ButtonEngineer.disabled = true if roles.has("engineer") else false
+	ButtonRadio.disabled = true if roles.has("radio") else false
 
 
 # Sets roles to captain

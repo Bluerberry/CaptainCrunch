@@ -1,5 +1,10 @@
 extends Node2D
 
+# -------------------> Variables
+
+#onready var Username = get_node("Username")
+#onready var TargetIP = get_node("TargetIP")
+
 # -------------------> Functions
 
 # Starts the game as host
